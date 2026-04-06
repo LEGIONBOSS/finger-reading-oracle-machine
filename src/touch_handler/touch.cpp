@@ -7,15 +7,16 @@
 #include <Arduino.h>
 #include "touch.hpp"
 
-static uint8_t _pin = 0;
-static void (*_touch_cb)(void);
-static uint32_t _touch_time_min = 0;
-static uint8_t _init = 0;
+static uint8_t _pin = 0;               // Touch sensor I/O pin
+static void (*_touch_cb)(void);        // Touch detection callback function
+static uint32_t _touch_time_min = 0;   // Minimum detected touch interval (ms)
+static uint8_t _init = 0;              // Driver is initialized (bool)
 
-static uint32_t _touch_start_time = 0;
-static uint8_t _last_state = 0;
-static uint8_t _cb_flag = 1;
+static uint32_t _touch_start_time = 0; // Touch detection start timestamp (ms)
+static uint8_t _last_state = 0;        // Last touch sensor state (bool)
+static uint8_t _cb_flag = 1;           // Callback enable flag (bool)
 
+// Initialize touch sensor driver, returns bool
 uint8_t touch_init(uint8_t pin, void (*touch_cb)(void), uint32_t touch_time_min)
 {
     // Check arguments
@@ -33,6 +34,7 @@ uint8_t touch_init(uint8_t pin, void (*touch_cb)(void), uint32_t touch_time_min)
     return 1;
 }
 
+// Update touch sensor, returns bool
 uint8_t touch_update(uint32_t time_ms)
 {
     if (!_init)
@@ -63,6 +65,7 @@ uint8_t touch_update(uint32_t time_ms)
     return 1;
 }
 
+// Get touch sensor current state, returns bool
 uint8_t touch_get_state(uint8_t* state)
 {
     // Check arguments
