@@ -22,3 +22,5 @@
 **TTS to MP3 tool:** [https://apps.microsoft.com/detail/9n92n3shd1mv](https://apps.microsoft.com/detail/9n92n3shd1mv)
 
 **MP3 editor tool:** [https://www.dvdvideosoft.com/products/dvd/Free-Audio-Editor.htm](https://www.dvdvideosoft.com/products/dvd/Free-Audio-Editor.htm)
+
+**DFPlayer library:** [https://github.com/DFRobot/DFRobotDFPlayerMini](https://github.com/DFRobot/DFRobotDFPlayerMini)
