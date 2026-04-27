@@ -1,6 +1,6 @@
 # Finger Reading Oracle Machine <!-- omit from toc -->
 
-Fingerprint reading oracle machine for the 62nd TORTUR "ORÁKULUM" task
+Fingerprint reading oracle machine for the 62nd TORTÚRA "ORÁKULUM" task
 
 1. [Connections](#connections)
 2. [Mechanical assembly](#mechanical-assembly)
@@ -14,11 +14,7 @@ Fingerprint reading oracle machine for the 62nd TORTUR "ORÁKULUM" task
 
 ## Mechanical assembly
 
-| ![img/Diagram2.png](img/Diagram2.png) |
-| :-: |
-| Wiring diagram |
-
-| ![img/board_under.jpeg](img/board_under.jpeg) | ![img/board_top.jpeg](img/board_top.jpeg) | ![img/board_top_assembled.jpeg](img/board_top_assembled.jpeg) |
+| ![img/complete_top.jpg](img/complete_top.jpg) | ![img/complete_side.jpg](img/complete_side.jpg) | ![img/complete_bottom.jpg](img/complete_bottom.jpg) |
 | --- | :-: | --- |
 | | Assembled board | |
 
@@ -30,6 +26,6 @@ Fingerprint reading oracle machine for the 62nd TORTUR "ORÁKULUM" task
 | TTP223B-TM Capacitive Touch Sensor | [https://www.hestore.hu/prod_10037912.html](https://www.hestore.hu/prod_10037912.html) |
 | DFRobot DFPlayer Mini | [https://www.hestore.hu/prod_10038040.html](https://www.hestore.hu/prod_10038040.html) |
 | 4 Ohm 3W Speaker | [https://www.hestore.hu/prod_10049293.html](https://www.hestore.hu/prod_10049293.html) |
-| TTS to MP3 tool | [https://apps.microsoft.com/detail/9n92n3shd1mv](https://apps.microsoft.com/detail/9n92n3shd1mv) |
-| MP3 editor tool | [https://www.dvdvideosoft.com/products/dvd/Free-Audio-Editor.htm](https://www.dvdvideosoft.com/products/dvd/Free-Audio-Editor.htm) |
+| TTS to MP3 tool | [https://speechgen.io/](https://speechgen.io/) |
+| MP3 editor tool | [https://audiomass.co/](https://audiomass.co/) |
 | DFPlayer Arduino library | [https://github.com/DFRobot/DFRobotDFPlayerMini](https://github.com/DFRobot/DFRobotDFPlayerMini) |
